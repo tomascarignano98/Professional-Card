@@ -22,7 +22,7 @@ p {
   box-shadow: 0 0 20px 20px #d6d6d69d;
   overflow: hidden;
   transform: rotate(-5deg);
-  transition: rotate 0.2s;
+  transition: transform 0.2s;
 }
 
 .card:hover {
@@ -48,6 +48,7 @@ p {
 
 .name {
   margin-left: 15px;
+  color: aliceblue;
 }
 
 .card-footer img {
